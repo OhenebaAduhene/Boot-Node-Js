@@ -4,8 +4,21 @@
   "description": "\"This is a test directory to learn git and node\"",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "OhenebaAduhene",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OhenebaAduhene/Boot-Node-Js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OhenebaAduhene/Boot-Node-Js/issues"
+  },
+  "homepage": "https://github.com/OhenebaAduhene/Boot-Node-Js#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
